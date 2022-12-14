@@ -259,3 +259,4 @@ INSERT INTO OrdersDetails (rate_id, order_id, quantity, unit_price) VALUES (41,9
 INSERT INTO OrdersDetails (rate_id, order_id, quantity, unit_price) VALUES (52,10,1,9.20);
 INSERT INTO OrdersDetails (rate_id, order_id, quantity, unit_price) VALUES (54,10,2,5.90);
 
+mysqldump -u -p  -h 127.0.0.1 --opt evaluation_5 > evaluation_5.sql
